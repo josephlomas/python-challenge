@@ -48,6 +48,7 @@ print("-------------------------")
 print(candidate_results)
 print("-------------------------")
 print(f"Winner: " + winner)
+print("-------------------------")
 
 # Output results to a text file
 file = open('PyPoll.txt', 'w')
@@ -58,3 +59,4 @@ file.write("-------------------------" + "\n")
 file.write(candidate_results + "\n")
 file.write("-------------------------" + "\n")
 file.write(f"Winner: " + winner + "\n")
+file.write("-------------------------" + "\n")
